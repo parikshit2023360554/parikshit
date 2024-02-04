@@ -1,0 +1,39 @@
+#include <stdio.h>
+void search(int a[], int n, int item, int *loc)
+{
+    int k = 0;
+    *loc = -1;
+    while (k < n)
+    {
+        if (item == a[k])
+        {
+            *loc = k;
+            break;
+        }
+        k++;
+    }
+    if (*loc == -1)
+    {
+        printf("Item not found.\n");
+    }
+    else
+    {
+        printf("The location is %d\n", *loc);
+    }
+}
+int main()
+{
+    int a[100];
+    int n, item, loc;
+printf("Enter the size: ");
+    scanf("%d", &n);
+    printf("Enter the elements of the array:\n");
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+    printf("Enter the item to search: ");
+    scanf("%d", &item);
+    search(a, n, item, &loc);
+    return 0;
+}
