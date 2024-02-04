@@ -31,7 +31,5 @@ int main() {
     printf("Enter the value");
     array1(arr + n1 - n2, n2);
     array3(arr, n1 + n2);
-    free(arr);
-
     return 0;
 }
