@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{background: url(/aditi/background.jpeg) no-repeat ;
+    font-size: 14px; 
+    color:#333;
+    font-family: arial Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+    background-size: cover;
+    background-position: center; 
+  }
+
+
+
+.menu-ba{
+  background-color: #ccc;
+  text-align: center;
+  border-radius: 100vw;
+
+}
+.menu-ba ul{
+  display: inline-flex;
+  list-style:none;
+  color: black;
+  
+}
+.menu-ba ul li{
+  width: 120px;
+  margin: 15px;
+}
+
+
+main {
+  padding: 20px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 10px;
+  text-align: center;
+  color: #EBEBD3;
+  font-size: 25px;
+  font-weight: 500;
+  justify-content: flex-end;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+  font-size: 7px;
+}
+
+input[type="search"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.temp {
+  margin-right: 20px;
+}
+
+.location {
+  margin-right: 20px;
+}
+
+.conditions {
+  margin-right: 20px;
+}
+
+.flag {
+  margin-right: 20px;
+}
+
+.time {
+  margin-right: 20px;
+}
+
+.webee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.webee h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.webee p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.website {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.website h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.website p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.website ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.website li {
+  margin: 5px}
+
+.button{
+  position: relative;
+  width: 100px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  font-weight: bold;
+  border:2px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 100px;
+}
